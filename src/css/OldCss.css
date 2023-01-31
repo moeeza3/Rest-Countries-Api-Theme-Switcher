@@ -1,0 +1,95 @@
+/* not to use it is just old css commented for help if needed */
+/* ---------------------------------------------------------- */
+/* ---------------------------------------------------- */
+/* ------------------------------------------- */
+
+
+/* =============================================================== */
+
+/* .white .input-group,.white .input-group-text{
+    background: var(--white) !important;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    color: var(--vdarkbluetxt) !important;
+}
+.black .input-group,.black .input-group-text{
+    background: var(--vdarkbluebck) !important;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    color: var(--vlightgraybck) !important;
+} */
+/* .white .form-main-div{
+    background: var(--vlightgraybck) !important;
+}
+.black .form-main-div{
+       background: var(--vdarkbluebck) !important;
+} */
+/* .white .input-group-text{
+    background: var(--vlightgraybck) !important;
+    
+    color: var(--vdarkbluetxt) !important;
+} */
+/* .black .input-group-text{
+    background: var(--darkblue) !important;
+    
+    color: var(--vlightgraybck) !important;
+} */
+/* .white input,.white select,.white input::placeholder{
+    background: var(--vlightgraybck) !important;
+    padding: 12px 10px !important;
+    color: var(--darkblue) !important;
+} */
+
+/* .black input,.black select,.black input::placeholder{
+    background: var(--darkblue) !important;
+    padding: 12px 10px !important;
+    color: var(--vlightgraybck) !important;
+} */
+
+
+/* .black .short-card .card-body{
+    background: var(--darkblue) !important;
+}
+.black .short-card .card-title{
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    color: var(--vlightgraybck);
+} */
+
+/* .black .short-card .card-text{
+    font-size: 14px !important;
+    font-weight: 600;
+    text-decoration: none !important;
+    color: var(--vlightgraybck);
+} */
+
+
+/* .black ~ .country-section{
+    height: 90vh !important;
+    background: var(--vdarkbluebck) !important;
+} */
+
+/* .black .back{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: var(--darkblue) !important;
+    color: var(--vlightgraybck) !important;
+} */
+
+ /* .black  .headers,.black .mode {
+    background: var(--darkblue) !important;
+    color: var(--vlightgraybck) !important;
+} */
+/* .white  .country-section{
+    background:var(--vlightgraybck) !important;
+}
+.black  .country-section{
+ background: var(--vdarkbluebck) !important;
+} */
+
+/* .black .detail ,.black .card-footer{
+     background: var(--vdarkbluebck) !important;
+     color: var(--vlightgraybck);
+} */
+/* .black .card-footer span{
+     background: var(--darkblue) !important;
+     color: var(--vlightgraybck);
+     box-shadow: rgb(19, 19, 19) 0px 0px 5px 0px !important;
+} */
