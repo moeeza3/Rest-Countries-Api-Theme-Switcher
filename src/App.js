@@ -3,7 +3,7 @@ import './App.css';
 import Home from './pages/Home';
 import Country from './pages/Country';
 import Main from './components/Main';
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
+import { HashRouter as Router,Routes,Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
