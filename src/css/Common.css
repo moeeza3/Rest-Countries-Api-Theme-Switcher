@@ -166,7 +166,7 @@ a:link {
   }
 @media only screen and (max-width: 992px) {
     .card-section{
-        height: 150vh !important;
+        height: 100% !important;
     }
     
     .country-section{
@@ -175,7 +175,7 @@ a:link {
   }
 @media only screen and (max-width: 786px) {
     .card-section{
-        height: 200vh !important;
+        height: 100% !important;
     }
    
     
@@ -189,7 +189,7 @@ a:link {
     width: 400px !important;
     }
     .card-section{
-        height: 400vh !important;
+        height: 100% !important;
     }
    
   }
