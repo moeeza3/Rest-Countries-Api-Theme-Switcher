@@ -16,7 +16,7 @@ const Cards = () => {
   <div className="d-flex flex-wrap justify-content-lg-between justify-content-around">
     
       {
-        filtercountries.map((curElem,index)=>{
+        filtercountries.slice(0,8).map((curElem,index)=>{
           
             return (
               
