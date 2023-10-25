@@ -21,10 +21,6 @@ const Cards = () => {
             return (
               
               <NavLink to={`/country/${curElem.name.common}`}  location={curElem}>
-<<<<<<< HEAD
-=======
-
->>>>>>> c258fe4e50772bf8e6ac945732fa39133ab36855
               
                <div className='card short-card my-3 border-0' key={index}>
                <div className="img-container">
@@ -50,8 +46,5 @@ const Cards = () => {
   )
 }
 
-<<<<<<< HEAD
+
 export default Cards
-=======
-export default Cards
->>>>>>> c258fe4e50772bf8e6ac945732fa39133ab36855
