@@ -1,0 +1,200 @@
+/* - Dark Blue (Dark Mode Elements): hsl(209, 23%, 22%)
+- Very Dark Blue (Dark Mode Background): hsl(207, 26%, 17%)
+- Very Dark Blue (Light Mode Text): hsl(200, 15%, 8%)
+- Dark Gray (Light Mode Input): hsl(0, 0%, 52%)
+- Very Light Gray (Light Mode Background): hsl(0, 0%, 98%)
+- White (Dark Mode Text & Light Mode Elements): hsl(0, 0%, 100%) */
+
+:root {
+    --darkblue: hsl(209, 23%, 22%);  /* dark mode elements */ 
+    --vdarkbluebck: hsl(207, 26%, 17%); /* dark mode background */
+    --vdarkbluetxt: hsl(200, 15%, 8%);   /* light mode txt */
+    --darkgrayinput: hsl(0, 0%, 52%); /* input */
+    --vlightgraybck: hsl(0, 0%, 98%); /* light mode background */
+    --white: hsl(0, 0%, 100%); /* for dark mode text / light mode elements */
+  }
+
+
+/* background and color 1st variation----------*/
+.white .section,black  .country-section,.white .form-main-div,.white .input-group-text,.white input,.white select,.white input::placeholder ,.white .back,.white .detail {
+    background: var(--vlightgraybck) !important;
+    color: var(--vdarkbluetxt) !important;
+}
+.black .section,.black  .country-section,.black .form-main-div,.black .input-group-text,.black input,.black select,.black input::placeholder,.black .detail ,.black .border-countries{
+    background: var(--vdarkbluebck) !important;
+    color: var(--vlightgraybck) !important;
+}
+/* background and color 2nd variation----------*/
+
+.white .detail {
+    background: var(--white) !important;
+    color: var(--darkblue) !important;
+}
+
+.black  .headers,.black .mode, .black .short-card .card-body,.black .short-card .card-text,.black .back,.black .border-countries span{
+    background: var(--darkblue) !important;
+    color: var(--vlightgraybck) !important;
+}
+/* background and color 3rd variation */
+.black .detail .card-title{
+    color: var(--white) !important;    
+}
+
+
+/* shadows */
+.white .input-group,.white select,.white .back,.white .border-countries span{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 2px !important;
+}
+.black .input-group,.black select,.black .back,.black .border-countries span{
+    box-shadow: rgb(20, 20, 20) 0px 0px 10px 2px !important;
+}
+
+/* .white .headers{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 2px !important;
+}  
+.black .headers{
+    box-shadow: rgb(82, 80, 80) 0px 0px 10px 2px !important;
+}   */
+
+/* .white+ .headers{
+    box-shadow: rgb(82, 80, 80) 0px 0px 10px 2px !important;
+} */
+
+.form-control,.select{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.input-group{
+    background: none !important;
+}
+
+.card-section{
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+input, select, input::placeholder{
+   
+    padding: 12px 10px !important;
+    
+}
+
+
+.img-container{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.img-container img{
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+}
+a:link {
+    text-decoration: none!important;
+  }
+.short-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-decoration: none !important;
+    width: 256px !important;
+}
+.short-card .card-title{
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+
+.short-card .card-text{
+    font-size: 14px !important;
+    font-weight: 600;
+    text-decoration: none !important;
+    color: var(--darkblue);
+}
+
+.short-card .card-text span{
+    font-weight: 400;
+    text-decoration: none !important;
+    
+}
+
+.country-section{
+    height:90vh !important;
+}
+
+
+.detail .card-text{
+    font-size: 14px !important;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.detail-img-container{
+    
+    height: 350px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.detail-img{
+    
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+}
+.detail .card-text span{
+    font-weight: 400;
+    font-size: 14px !important;
+}
+.back{
+    font-size: 1.0rem;
+}
+.icon{
+    font-size: 1.4rem;
+}
+@media only screen and (min-width: 1200px) {
+    .card-section{
+        height: 100% !important;
+    }
+    
+    
+  }
+@media only screen and (max-width: 1200px) {
+    .card-section{
+        height: 100% !important;
+    }
+    
+
+  }
+@media only screen and (max-width: 992px) {
+    .card-section{
+        height: 100% !important;
+    }
+    
+    .country-section{
+        height:100% !important;
+    }
+  }
+@media only screen and (max-width: 786px) {
+    .card-section{
+        height: 100% !important;
+    }
+
+  }
+@media only screen and (max-width: 576px) {
+    .section {
+        background: var(--vdarkbluebck) !important; 
+    }
+    
+    .card-section{
+        height: 100% !important;
+    }
+
+  }
+  @media only screen and (max-width: 420px) {
+    .short-card {
+    width: 300px !important;
+    }
+
+  }
+
+  
+
